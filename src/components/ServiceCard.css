@@ -1,0 +1,53 @@
+.scard-container {
+    margin: 7px;
+    width: 94%;
+    border-radius: 5px;
+
+}
+
+.scard-container:hover {
+    filter: drop-shadow(0 0.8rem 0.25rem rgba(0, 0, 0, 0.2));
+}
+
+.scard-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #000000; */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.scard-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.scard-text {
+    flex: 1;
+}
+
+.scard-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.scard-facts {
+    font-size: 16px;
+    color: #777777;
+}
+
+.scard-blue {
+    background-color: #cfdfff;
+}
+
+.scard-green {
+    background-color: #d7ffd9;
+}
+
+.scard-yellow {
+    background-color: #fff9cc;
+}

@@ -1,0 +1,139 @@
+/* src/components/Hero.css */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Comfortaa:wght@300&family=Dosis&family=Open+Sans:ital,wght@1,300&family=Oxygen:wght@700&family=Poppins:wght@300&family=Righteous&family=Roboto+Slab&family=Ubuntu:wght@500&display=swap');
+
+.hero {
+    background-image: url("../assets/3.jpg");
+    /* overflow-y: scroll; */
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+.hero-content {
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: Arvo;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Media Query for Tablet Screens */
+@media (max-width: 768px) {
+    .hero {
+        height: 80vh;
+        /* Adjust the height as needed for tablets */
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        /* Reduce font size for tablets */
+    }
+
+    .hero p {
+        font-size: 1rem;
+        /* Reduce font size for tablets */
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 576px) {
+    .hero {
+        height: 60vh;
+        /* Adjust the height as needed for mobile */
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+        /* Reduce font size for mobile */
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+        /* Reduce font size for mobile */
+    }
+
+    .hero-image img {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (482px< width <934px) {
+    .hero-image img {
+        height: auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (300px< width <482px) {
+    .hero-image img {
+        height: auto;
+        width: 70%;
+    }
+
+    .hero h1 {
+        font-size: 1rem;
+        /* Reduce font size for mobile */
+    }
+
+    .hero p {
+        font-size: 0.4rem;
+        /* Reduce font size for mobile */
+    }
+
+
+}
+
+@media screen and (width <300px) {
+    .hero-image img {
+        height: auto;
+        width: 70%;
+    }
+
+    .hero h1 {
+        font-size: 0.7rem;
+        /* Reduce font size for mobile */
+    }
+
+    .hero p {
+        font-size: 0.6rem;
+        /* Reduce font size for mobile */
+    }
+
+
+}
+
+.hero-image img {
+    justify-content: center;
+    align-items: center;
+    max-width: 85%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,183 @@
+/* src/components/Footer.css */
+
+.footer {
+    position: absolute;
+    width: 100%;
+    /* bottom: 0; */
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+
+}
+
+.footer h1,
+h2,
+h4,
+p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: Poppins;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-icons a :hover {
+    color: #000;
+    /* transform: scale(0.9); */
+
+}
+
+.sub-text {
+    font-family: Poppins;
+    font-size: larger;
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 4px;
+    color: rgb(247, 248, 248);
+    height: 46px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+
+    :focus {
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+}
+
+
+.button-50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 1px 1px 0 0, #000 1px 1px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px 5px 10px 10px;
+    overflow: visible;
+    padding: 9px 5px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-50:focus {
+    text-decoration: none;
+}
+
+.button-50:hover {
+    text-decoration: none;
+}
+
+.button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-50:not([disabled]):active {
+    box-shadow: #fff 1px 1px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 9px 5px;
+    }
+}
+
+@media screen and (950px < width <1340px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 290px;
+        row-gap: 10px;
+    }
+
+    .button-50 {
+        position: absolute;
+
+    }
+
+
+}
+
+@media screen and (782px< width <950px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 80px;
+    }
+
+}
+
+@media screen and (716px< width < 782px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+
+}
+
+@media screen and (width < 716px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (width < 400px) {
+    .sub-text {
+        width: 200px;
+    }
+
+    .button-50 {
+        margin-left: 2px;
+        margin-top: 4px;
+    }
+
+
+
+}
+
+.pages-foot a {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}

@@ -1,0 +1,28 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/2.jpg");
+    background-size: contain;
+    background-position: center;
+}
+
+.swiper h2 {
+    position: absolute;
+    bottom: 85%;
+    padding-bottom: 10px;
+}
+
+
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}

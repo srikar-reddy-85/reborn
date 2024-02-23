@@ -1,0 +1,93 @@
+/* Base styles for desktop */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Comfortaa:wght@300&family=Dosis&family=Open+Sans:ital,wght@1,300&family=Oxygen:wght@700&family=Poppins:wght@300&family=Righteous&family=Roboto+Slab&family=Ubuntu:wght@500&display=swap');
+
+.content-section {
+    background-image: url("../assets/5.jpg");
+    background-size: contain;
+    background-position: center;
+    /* height: 80vh; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 0px; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.content-text {
+    padding: 30px;
+    /* margin-left: 30px; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content-image {
+    padding: 30px;
+    padding-left: 15%;
+    max-width: 100%;
+    border-radius: 20px;
+    height: auto;
+}
+
+.content-paragraph {
+    margin: 0px 0;
+}
+
+.content-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button {
+    font-family: Comfortaa;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #fcff31;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.button:hover {
+    transition: 0.3s;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    /* border: #fcff31; */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+}
+
+/* Media query for tablets (e.g., iPad) */
+@media screen and (width<992px) {
+    .content-section img {
+        justify-content: center;
+        align-items: center;
+        scale: 80%;
+
+    }
+
+
+
+    .content-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-paragraph {
+        text-align: center;
+        margin: 0;
+    }
+
+
+
+}
+
+
+/* CSS */

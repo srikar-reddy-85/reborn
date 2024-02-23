@@ -1,0 +1,158 @@
+.SecondExample {
+    max-width: 100%;
+    padding-left: 0px;
+
+
+    .Project {
+        max-width: 100%;
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+        padding: 10px;
+
+        * {
+            color: white;
+        }
+
+    }
+}
+
+.background {
+    background-image: url("../assets/3.jpg");
+    background-size: contain;
+}
+
+
+.Contact:hover {
+    color: black;
+    background-color: white;
+}
+
+.Contact {
+    position: absolute;
+    top: 80%;
+    font-weight: 900;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: Poppins;
+}
+
+.profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+.descdoc {
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.titledoc {
+    font-Family: "Comfortaa";
+    font-size: 25px
+}
+
+@media screen and (width<900px) {
+    .doccontainer p {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .Contact {
+        margin-top: 10px;
+        top: 75%
+    }
+
+
+}
+
+@media screen and (width<640px) {
+    .doccontainer p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .titledoc {
+        font-size: 20px;
+    }
+
+    .Contact {
+        font-weight: 500;
+        padding: 5px;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        font-family: Poppins;
+        top: 70%;
+    }
+
+    .profile {
+        height: 80px;
+        width: 80px;
+    }
+
+
+
+}
+
+@media screen and (391px < width<800px) {
+    .descdoc {
+        font-family: Poppins;
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (width<391px) {
+    .doccontainer p {
+        font-family: Poppins;
+        font-size: 9px;
+    }
+
+    .Contact {
+        top: 60%;
+    }
+
+
+}
+
+@media screen and (width<300px) {
+    .descdoc {
+        font-family: Poppins;
+        font-size: 8px;
+    }
+
+    .profile {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .titledoc {
+        font-Family: "Comfortaa";
+        font-size: 10px
+    }
+
+    .doccontainer p {
+        font-size: 8px;
+    }
+
+    .profile {
+        height: 80px;
+        width: 80px;
+    }
+
+
+}
+
+
+
+.contentdoc {
+    font-size: 20px;
+    padding-top: 100px;
+}
