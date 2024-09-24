@@ -84,4 +84,4 @@ Special thanks to the developers of React.js, Supabase, and all the open-source 
 
 **Contact:**
 
-For inquiries or support, please contact [gvssrikar1234@gmail.com](mailto:your-email@example.com).
+For inquiries or support, please contact [gvssrikar1234@gmail.com]
