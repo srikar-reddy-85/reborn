@@ -51,3 +51,10 @@
 .scard-yellow {
     background-color: #fff9cc;
 }
+
+@media screen and (width<730px) {
+    .scard-container {
+        width: 98%;
+    }
+
+}

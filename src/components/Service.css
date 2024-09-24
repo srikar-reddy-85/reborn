@@ -3,3 +3,10 @@
     bottom: 1rem;
     align-self: flex-end;
 }
+
+@media screen and (width<730px) {
+    .simage {
+        display: none;
+    }
+
+}
