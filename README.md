@@ -21,13 +21,13 @@ This is a Telehealth web application built using React.js for the frontend and S
 1. Clone the repository:
 
 ```
-git clone <repository-url>
+git clone https://github.com/srikar-reddy-85/reborn.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd telehealth-app
+cd reborn
 ```
 
 3. Install dependencies:
