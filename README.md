@@ -1,6 +1,6 @@
 **REBORN**
 
-This is a Telehealth web application built using React.js for the frontend and Supabase for the backend.
+This is a mental health web application built using React.js for the frontend and Supabase for the backend.
 
 **Features:**
 
